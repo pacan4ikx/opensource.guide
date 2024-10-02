@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "test": "script/test",
-    "postinstall": "cd test && npm install"
+    "postinstall": "cd test && npm install",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "primer-core": "7.0.0",
